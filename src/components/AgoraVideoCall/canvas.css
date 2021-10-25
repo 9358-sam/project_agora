@@ -1,0 +1,38 @@
+#ag-canvas {
+  height: 100%;
+}
+
+.ag-item :first-child {
+  border-radius: 6px;
+}
+
+
+
+#ag-resize-container {
+  background-image: none!important;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: center;
+}
+
+#ag-resize-container .ag-item {
+  border: none!important;
+}
+
+
+/* button group */
+
+.ag-btn-group {
+  height: 70px;
+  width: calc(100% - 60px);
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  background: transparent;
+  z-index: 11;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
